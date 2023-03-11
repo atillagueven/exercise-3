@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:ex="https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-danai#"
+     xmlns:js="https://www.w3.org/2019/wot/json-schema#"
+     xmlns:td="https://www.w3.org/2019/wot/td#"
+     xmlns:htv="http://www.w3.org/2011/http#"
+     xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:was="https://was-course.interactions.ics.unisg.ch/farm-ontology#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:hctl="https://www.w3.org/2019/wot/hypermedia#"
+     xmlns:hmas="https://purl.org/hmas/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:wotsec="https://www.w3.org/2019/wot/security#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2011/http#methodName -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2011/http#methodName"/>
+    
+
+
+    <!-- https://purl.org/hmas/contains -->
+
+    <AnnotationProperty rdf:about="https://purl.org/hmas/contains"/>
+    
+
+
+    <!-- https://purl.org/hmas/hasProfile -->
+
+    <AnnotationProperty rdf:about="https://purl.org/hmas/hasProfile"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/hypermedia#forContentType -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/hypermedia#forContentType"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/hypermedia#hasOperationType -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/hypermedia#hasOperationType"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/hypermedia#hasTarget -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/hypermedia#hasTarget"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/json-schema#items -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/json-schema#items"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/json-schema#maxItems -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/json-schema#maxItems"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/json-schema#maximum -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/json-schema#maximum"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/json-schema#minItems -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/json-schema#minItems"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/json-schema#minimum -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/json-schema#minimum"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/td#hasActionAffordance -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/td#hasActionAffordance"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/td#hasBase -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/td#hasBase"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/td#hasForm -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/td#hasForm"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/td#hasInputSchema -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/td#hasInputSchema"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/td#hasOutputSchema -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/td#hasOutputSchema"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/td#hasSecurityConfiguration -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/td#hasSecurityConfiguration"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/td#name -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/td#name"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/td#title -->
+
+    <AnnotationProperty rdf:about="https://www.w3.org/2019/wot/td#title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#hasActionAffordance -->
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasActionAffordance"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#hasCoordinates -->
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasCoordinates"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#hasMoistureLevel -->
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasMoistureLevel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#coordinate -->
+
+    <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#coordinate"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#requiredMoistureLevel -->
+
+    <DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#requiredMoistureLevel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Corn -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Corn">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Crop"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Crop -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Crop">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#hasMoistureLevel"/>
+                <someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Crop"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Section -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Section"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Wheat -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Wheat">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Crop"/>
+    </Class>
+    
+
+
+    <!-- https://was-course.interactions.ics.unisg.ch/farm-ontology#Coordinates -->
+
+    <Class rdf:about="https://was-course.interactions.ics.unisg.ch/farm-ontology#Coordinates">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#hasCoordinates"/>
+                <someValuesFrom rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#Coordinates"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://was-course.interactions.ics.unisg.ch/farm-ontology#Farm -->
+
+    <Class rdf:about="https://was-course.interactions.ics.unisg.ch/farm-ontology#Farm">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#hasCoordinates"/>
+                <someValuesFrom rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#Farm"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://was-course.interactions.ics.unisg.ch/farm-ontology#IrrigateAffordance -->
+
+    <Class rdf:about="https://was-course.interactions.ics.unisg.ch/farm-ontology#IrrigateAffordance">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/2019/wot/td#ActionAffordance"/>
+    </Class>
+    
+
+
+    <!-- https://was-course.interactions.ics.unisg.ch/farm-ontology#ReadSoilMoistureAffordance -->
+
+    <Class rdf:about="https://was-course.interactions.ics.unisg.ch/farm-ontology#ReadSoilMoistureAffordance">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/2019/wot/td#ActionAffordance"/>
+    </Class>
+    
+
+
+    <!-- https://was-course.interactions.ics.unisg.ch/farm-ontology#SoilMoisture -->
+
+    <Class rdf:about="https://was-course.interactions.ics.unisg.ch/farm-ontology#SoilMoisture">
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#hasMoistureLevel"/>
+                <someValuesFrom rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#SoilMoisture"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    
+
+
+    <!-- https://was-course.interactions.ics.unisg.ch/farm-ontology#Tractor -->
+
+    <Class rdf:about="https://was-course.interactions.ics.unisg.ch/farm-ontology#Tractor">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#hasActionAffordance"/>
+                <someValuesFrom rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#Tractor"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/json-schema#ArraySchema -->
+
+    <Class rdf:about="https://www.w3.org/2019/wot/json-schema#ArraySchema"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/json-schema#IntegerSchema -->
+
+    <Class rdf:about="https://www.w3.org/2019/wot/json-schema#IntegerSchema"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/security#NoSecurityScheme -->
+
+    <Class rdf:about="https://www.w3.org/2019/wot/security#NoSecurityScheme"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/td#ActionAffordance -->
+
+    <Class rdf:about="https://www.w3.org/2019/wot/td#ActionAffordance"/>
+    
+
+
+    <!-- https://www.w3.org/2019/wot/td#Thing -->
+
+    <Class rdf:about="https://www.w3.org/2019/wot/td#Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#corn1 -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#corn1">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Corn"/>
+        <ont:hasCoordinates rdf:resource="http://www.co-ode.org/ontologies/ont.owl#section3-0112"/>
+        <ont:requiredMoistureLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</ont:requiredMoistureLevel>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#corn2 -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#corn2">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Corn"/>
+        <ont:hasCoordinates rdf:resource="http://www.co-ode.org/ontologies/ont.owl#section4-1122"/>
+        <ont:requiredMoistureLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</ont:requiredMoistureLevel>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#section1-0011 -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#section1-0011">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Section"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#hasMoistureLevel"/>
+                <someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Wheat"/>
+            </Restriction>
+        </rdf:type>
+        <ont:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0011</ont:coordinate>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#section2-1021 -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#section2-1021">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Section"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#hasMoistureLevel"/>
+                <someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Wheat"/>
+            </Restriction>
+        </rdf:type>
+        <ont:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1021</ont:coordinate>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#section3-0112 -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#section3-0112">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Section"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#hasMoistureLevel"/>
+                <someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Corn"/>
+            </Restriction>
+        </rdf:type>
+        <ont:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0112</ont:coordinate>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#section4-1122 -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#section4-1122">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Section"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#hasMoistureLevel"/>
+                <someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Corn"/>
+            </Restriction>
+        </rdf:type>
+        <ont:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1122</ont:coordinate>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#wheat1 -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#wheat1">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Wheat"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#hasMoistureLevel"/>
+                <someValuesFrom rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#SoilMoisture"/>
+            </Restriction>
+        </rdf:type>
+        <ont:hasCoordinates rdf:resource="http://www.co-ode.org/ontologies/ont.owl#section1-0011"/>
+        <ont:requiredMoistureLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</ont:requiredMoistureLevel>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#wheat2 -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#wheat2">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Wheat"/>
+        <ont:hasCoordinates rdf:resource="http://www.co-ode.org/ontologies/ont.owl#section2-1021"/>
+        <ont:requiredMoistureLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</ont:requiredMoistureLevel>
+    </NamedIndividual>
+    
+
+
+    <!-- https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-danai#farm-17c04810-567a-4236-b310-611bb4fd2a8c -->
+
+    <NamedIndividual rdf:about="https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-danai#farm-17c04810-567a-4236-b310-611bb4fd2a8c">
+        <rdf:type rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#Farm"/>
+        <hmas:contains rdf:resource="https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-danai#tractor-34541705-7798-4a16-b76b-5fec2861e077"/>
+        <hmas:contains rdf:resource="https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-danai#tractor-ae039570-396e-424f-9008-2142c3201b73"/>
+    </NamedIndividual>
+    
+
+
+    <!-- https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-danai#tractor-34541705-7798-4a16-b76b-5fec2861e077 -->
+
+    <NamedIndividual rdf:about="https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-danai#tractor-34541705-7798-4a16-b76b-5fec2861e077">
+        <rdf:type rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#Tractor"/>
+        <rdf:type rdf:resource="https://www.w3.org/2019/wot/td#Thing"/>
+        <hmas:hasProfile rdf:resource="https://raw.githubusercontent.com/Interactions-HSG/example-tds/was/tds/tractor1.ttl"/>
+        <td:hasActionAffordance>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#ReadSoilMoistureAffordance"/>
+                <rdf:type rdf:resource="https://www.w3.org/2019/wot/td#ActionAffordance"/>
+                <td:hasForm>
+                    <rdf:Description>
+                        <htv:methodName>GET</htv:methodName>
+                        <hctl:forContentType>application/json</hctl:forContentType>
+                        <hctl:hasOperationType rdf:resource="https://www.w3.org/2019/wot/td#invokeAction"/>
+                        <hctl:hasTarget rdf:resource="http://localhost:1080/api/tractors/1/moisture"/>
+                    </rdf:Description>
+                </td:hasForm>
+                <td:hasInputSchema>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#Coordinates"/>
+                        <rdf:type rdf:resource="https://www.w3.org/2019/wot/json-schema#ArraySchema"/>
+                        <js:items>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="https://www.w3.org/2019/wot/json-schema#IntegerSchema"/>
+                                <js:maximum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</js:maximum>
+                                <js:minimum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</js:minimum>
+                            </rdf:Description>
+                        </js:items>
+                        <js:maxItems rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</js:maxItems>
+                        <js:minItems rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</js:minItems>
+                    </rdf:Description>
+                </td:hasInputSchema>
+                <td:hasOutputSchema>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#SoilMoisture"/>
+                        <rdf:type rdf:resource="https://www.w3.org/2019/wot/json-schema#IntegerSchema"/>
+                    </rdf:Description>
+                </td:hasOutputSchema>
+                <td:name>Read Moisture Level</td:name>
+            </rdf:Description>
+        </td:hasActionAffordance>
+        <td:hasBase rdf:resource="http://localhost:1080/api/tractors/1/"/>
+        <td:hasSecurityConfiguration>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://www.w3.org/2019/wot/security#NoSecurityScheme"/>
+            </rdf:Description>
+        </td:hasSecurityConfiguration>
+        <td:title>A tractor that can be used for monitoring the moisture level of soil in a farm.</td:title>
+    </NamedIndividual>
+    
+
+
+    <!-- https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-danai#tractor-ae039570-396e-424f-9008-2142c3201b73 -->
+
+    <NamedIndividual rdf:about="https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-danai#tractor-ae039570-396e-424f-9008-2142c3201b73">
+        <rdf:type rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#Tractor"/>
+        <rdf:type rdf:resource="https://www.w3.org/2019/wot/td#Thing"/>
+        <hmas:hasProfile rdf:resource="https://raw.githubusercontent.com/Interactions-HSG/example-tds/was/tds/tractor2.ttl"/>
+        <td:hasActionAffordance>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#IrrigateAffordance"/>
+                <rdf:type rdf:resource="https://www.w3.org/2019/wot/td#ActionAffordance"/>
+                <td:hasForm>
+                    <rdf:Description>
+                        <htv:methodName>PUT</htv:methodName>
+                        <hctl:forContentType>application/json</hctl:forContentType>
+                        <hctl:hasOperationType rdf:resource="https://www.w3.org/2019/wot/td#invokeAction"/>
+                        <hctl:hasTarget rdf:resource="http://localhost:1080/api/tractors/2/sprayer"/>
+                    </rdf:Description>
+                </td:hasForm>
+                <td:hasInputSchema>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="https://was-course.interactions.ics.unisg.ch/farm-ontology#Coordinates"/>
+                        <rdf:type rdf:resource="https://www.w3.org/2019/wot/json-schema#ArraySchema"/>
+                        <js:items>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="https://www.w3.org/2019/wot/json-schema#IntegerSchema"/>
+                                <js:maximum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</js:maximum>
+                                <js:minimum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</js:minimum>
+                            </rdf:Description>
+                        </js:items>
+                        <js:maxItems rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</js:maxItems>
+                        <js:minItems rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</js:minItems>
+                    </rdf:Description>
+                </td:hasInputSchema>
+                <td:name>Irrigate</td:name>
+            </rdf:Description>
+        </td:hasActionAffordance>
+        <td:hasBase rdf:resource="http://localhost:1080/api/tractors/2/"/>
+        <td:hasSecurityConfiguration>
+            <rdf:Description>
+                <rdf:type rdf:resource="https://www.w3.org/2019/wot/security#NoSecurityScheme"/>
+            </rdf:Description>
+        </td:hasSecurityConfiguration>
+        <td:title>A tractor that can be used for irrigating sections in a farm.</td:title>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
