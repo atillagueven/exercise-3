@@ -1,0 +1,11 @@
+PREFIX was: <https://was-course.interactions.ics.unisg.ch/farm-ontology#>
+PREFIX hmas: <https://purl.org/hmas/>
+
+SELECT ?landSection WHERE {
+GRAPH <https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-atilla#> {
+   bind (<https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-atilla#farm-57f32a40-2c3a-4ede-a1d7-c4a90ba1fde5> as ?farm)
+   ?farm a was:Farm.    
+   ?farm hmas:contains ?Section.
+   ?Section a was:Section.
+ }
+}
