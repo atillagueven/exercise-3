@@ -1,0 +1,14 @@
+PREFIX hmas: <https://purl.org/hmas/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX td: <https://www.w3.org/2019/wot/td#>
+
+select ?section where { 
+    GRAPH <https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-atilla#> {
+   	bind (<https://sandbox-graphdb.interactions.ics.unisg.ch/was-exercise-3-atilla#farm-57f32a40-2c3a-4ede-a1d7-c4a90ba1fde5> as ?farm)
+	?farm a was:Farm.
+    ?crop owl:onProperty was:requiredMoistureLevel.
+    FILTER (?requiredMoistureLevel = 120)
+	}
+} 
+
+#could not find the solution but wanted to search for the section, who has crop with requiredMoistureLevel of 120
